@@ -9,6 +9,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.panguin.ohhahhhae.Constants;
+import com.panguin.ohhahhhae.MainActivity;
+import com.panguin.ohhahhhae.R;
+
 public class ExpectFragment extends Fragment {
     private View wholeView = null;
     private String mGender = null;
@@ -16,8 +20,6 @@ public class ExpectFragment extends Fragment {
     public ExpectFragment (String Gender){
         this.mGender = Gender;
     }
-
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle data){

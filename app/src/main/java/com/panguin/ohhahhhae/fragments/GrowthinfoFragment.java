@@ -7,6 +7,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.panguin.ohhahhhae.Constants;
+import com.panguin.ohhahhhae.MainActivity;
+import com.panguin.ohhahhhae.R;
+
 public class GrowthinfoFragment extends Fragment {
     private View wholeView = null;
 

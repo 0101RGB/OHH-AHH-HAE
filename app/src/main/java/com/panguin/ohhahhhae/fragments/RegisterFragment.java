@@ -13,6 +13,10 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.RadioButton;
 
+import com.panguin.ohhahhhae.Constants;
+import com.panguin.ohhahhhae.MainActivity;
+import com.panguin.ohhahhhae.R;
+
 import java.util.Calendar;
 
 public class RegisterFragment extends Fragment {
